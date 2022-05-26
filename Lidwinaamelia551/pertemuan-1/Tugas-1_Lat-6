@@ -1,0 +1,10 @@
+print('LATIHAN 6')
+print("Ubah Jarak dalam Satuan yang Berbeda")
+j1 = float(input('Jarak (kaki) = '))
+j2 = j1*12
+j3 = j2*0.3333
+j4 = j3*0.00018939
+print('Jarak = ',j1,'kaki')
+print('= ',j2,'inci')
+print('= ',j3,'yard')
+print('= ',j4,'mil')
