@@ -1,0 +1,5 @@
+print('LATIHAN 3')
+p = float(input('Panjang ruangan = '))
+l = float(input('Lebar ruangan = '))
+luas = p*l
+print('Panjang =',p,'meter. Lebar =',l,'. Sehingga luas ruangan adalah',luas,'m2')
