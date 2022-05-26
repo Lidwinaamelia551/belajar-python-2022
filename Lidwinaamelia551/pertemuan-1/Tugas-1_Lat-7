@@ -1,0 +1,6 @@
+print('LATIHAN 7')
+print('Luas Segitiga')
+a = float(input('a = '))
+t = float(input('t = '))
+luas = a*t/2
+print('Luas Segitiga = ',luas,'satuan luas')
