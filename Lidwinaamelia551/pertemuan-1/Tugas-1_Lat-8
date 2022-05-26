@@ -1,0 +1,6 @@
+print('LATIHAN 8')
+print('Body Mass Index')
+w = float(input('Weight (kg) = '))
+h = float(input('Height (m) = '))
+bmi = w/(h*h)
+print('BMI = ',bmi)
