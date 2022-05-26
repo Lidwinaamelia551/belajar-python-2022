@@ -1,0 +1,13 @@
+print('LATIHAN 1')
+print('Hallo semuanya, namaku Wina. Aku baru belajar Python nih! Berikut biodata ringkas aku.')
+nama = 'Lidwina Amelia'
+alamat = 'Karta Sari, RT.16, RW.04'
+ttl = 'Dayamurni, 05 Mei 2001'
+umur = 21
+hobi = 'Menonton Anime'
+
+print('Nama :',nama)
+print('Alamat :',alamat)
+print('TTL :',ttl)
+print('Umur :',umur)
+print('Hobi :',hobi)
