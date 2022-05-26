@@ -1,0 +1,6 @@
+print('LATIHAN 5')
+print('Tinggi badan kamu?')
+t1 = float(input('Tinggi (kaki) = '))
+t2 = float(input('Tinggi (inci) = '))
+tinggi = ((t1*12)+t2)*2.54
+print('Tinggi badan = ',tinggi,'cm')
