@@ -1,0 +1,3 @@
+print('LATIHAN 2')
+nama = input("Siapa nama Anda?")
+print("Hallo,",nama)
