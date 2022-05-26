@@ -1,0 +1,10 @@
+print('LATIHAN 9')
+print('Konversi Tekanan')
+p1 = float(input('Tekanan (kilopascal) = '))
+p2 = p1*0.150377
+p3 = p2*7.500638
+p4 = p3*0.009869233
+print('Tekanan = ',p1,'kilopascal')
+print('= ',p2,'psi')
+print('= ',p3,'mmHg')
+print('= ',p4,'atm')
