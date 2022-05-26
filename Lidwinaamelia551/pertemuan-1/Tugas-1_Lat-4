@@ -1,0 +1,4 @@
+print('LATIHAN 4')
+n = int(input('Nilai n ='))
+jumlah = (n)*(n+1)/2
+print('Jumlah dari n bilangan bulat positif pertama adalah =',jumlah)
