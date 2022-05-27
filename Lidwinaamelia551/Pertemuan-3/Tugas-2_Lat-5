@@ -1,0 +1,15 @@
+print("""Tugas 2_Latihan 5
+Sebagian besar tahun memiliki 365 hari. Namun, waktu yang
+dibutuhkan Bumi untuk mengorbit Matahari sebenarnya sedikit
+lebih lama dari itu. Akibatnya, satu hari ekstra, 29 Februari
+dimasukkan bahwa beberapa tahun untuk mengoreksi perbedaan ini.
+Tahun-tahun itu disebut sebagai tahun kabisat. Aturan menentukan
+kabisat atau bukan.
+Buatlah program untuk mengecek tahun yang diinput user, apakah
+masuk tahun kabisat.""","\n")
+n = int(input("Masukkan tahun = "))
+if n%4 == 0:
+    print("Tahun",n,"adalah tahun kabisat")
+else:
+    print("Tahun",n,"bukan tahun kabisat")
+print("\n")
