@@ -1,0 +1,10 @@
+print("Looping")
+print("""For ...
+for i in range (<end>): do something""") #Kalau yang diinginkan dari interval 0 sampe end.
+print("Contoh code input")
+print("""for i in range (10):
+    print(i)""")
+print("Output")
+for i in range (10):
+    print(i)
+print("\n")
