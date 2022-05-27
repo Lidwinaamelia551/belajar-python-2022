@@ -1,0 +1,24 @@
+print("""Tugas 2_Latihan 3
+Tulis program yang membaa besarnya gempa dari pengguna dan
+outputnya akan menampilkan deskriptor sesuai tabel di file
+tugas.""","\n")
+n = float(input("Kekuatan gempa (Magnitudo) = "))
+if (n >= 10):
+    print("Gempa tersebut adalah gempa jenis Meteoric")
+elif (n >= 8):
+    print("Gempa tersebut adalah gempa jenis Great")
+elif (n >= 7):
+    print("Gempa tersebut adalah gempa jenis Major")
+elif (n >= 6):
+    print("Gempa tersebut adalah gempa jenis Strong")
+elif (n >= 5):
+    print("Gempa tersebut adalah gempa jenis Moderate")
+elif (n >= 4):
+    print("Gempa tersebut adalah gempa jenis Light")
+elif (n >= 3):
+    print("Gempa tersebut adalah gempa jenis Minor")
+elif (n >= 2):
+    print("Gempa tersebut adalah gempa jenis Very Minor")
+else:
+    print("Gempa tersebut adalah gempa jenis Micro")
+print("\n")
