@@ -1,0 +1,13 @@
+print("""Tugas 2_Latihan 2
+Tulis program yang jenius, bisa menebak nama bentuk hanya dari
+jumlah sisinya. Misalkan user memberikan input 3, kemudian
+program kamu memberikan output berupa nama bentuk tersebut.
+Program kamu harus mendukung bentuk dengan 3 sampai 10 sisi.
+Jika input user diluar kisaran itu, maka program kamu akan
+menampilkan pesan "ilmu saya belum sampai situ".""","\n")
+n = int(input("Sisi = "))
+if (3 <= n <= 10):
+    print("Itu adalah bentuk segi-",n)
+else:
+    print("Maaf, ilmu saya belum sampai situ")
+print("\n")
