@@ -1,0 +1,20 @@
+print('Pertemuan 3 KOMIKA')
+print("Boolean \n")
+x = True
+y = False
+print("\n")
+
+print('Operator Perbandingan')
+a = 2
+b = 3
+print(a==b)
+print(a<b)
+print(a>b)
+print(a<=b)
+print(a>=b)
+print(a!=b)
+
+print("Contoh: Buat program yang menginputkan sebuah angka jika angka tersebut kurang dari 80 maka outputnya False")
+a = float(input("a = "))
+print(a >= 80)
+print("\n")
