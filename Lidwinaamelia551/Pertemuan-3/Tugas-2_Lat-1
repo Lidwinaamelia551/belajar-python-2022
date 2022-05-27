@@ -1,0 +1,10 @@
+print("""Tugas 2_Latihan 1
+Tulis program yang membaca integer dari pengguna.
+Kemudian program kamu akan menampilkan pesan yang menunjukkan
+apakah bilangan bulat itu genap atau ganjil.""","\n")
+n = int(input("Nilai n adalah "))
+if n%2 == 0:
+    print(n," bukan bilangan ganjil")
+else:
+    print(n," adalah bilangan ganjil")
+print("\n")
