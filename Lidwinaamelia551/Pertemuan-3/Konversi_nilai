@@ -1,0 +1,13 @@
+print("Konversi Nilai")
+nilai = 58
+if(nilai >= 76):
+    print("A")
+elif(nilai >= 66):
+    print("B")
+elif(nilai >= 56):
+    print("C")
+elif(nilai >= 50):
+    print("D")
+else:
+    print("E")
+print("\n")
