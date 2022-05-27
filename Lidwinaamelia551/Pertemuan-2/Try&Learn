@@ -1,0 +1,5 @@
+print("Try & Learn")
+nama = "Lidwina"
+_gender = "perempuan"
+umur_2 = 41/2
+print("nama : "+nama+"\ngender :"+_gender+"\numur :"+str(umur_2))
