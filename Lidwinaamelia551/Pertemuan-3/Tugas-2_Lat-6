@@ -1,0 +1,16 @@
+n= 0
+x = 0
+i = 0
+jum = 0
+mean = 0.0
+
+n = int(input("Banyaknya nilai : "))
+for i in range (0,n):
+    x = int(input("Angka"))
+    jum += x
+print("Jumlah = ", jum)
+mean = jum/n
+ratarata = round(mean,2)
+print("Rata-rata = ", ratarata)
+print("\n")
+#Bang, saya belum paham penggunaan fungsi while :( jadi pake for dulu yaa hehe
