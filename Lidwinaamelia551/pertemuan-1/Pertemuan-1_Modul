@@ -1,0 +1,26 @@
+print("PERTEMUAN 1")
+print('Statement Multibaris')
+print("""a = panjang1 + panjang2 + \
+    panjang3 + \
+    panjang4
+b = panjang1 + panjang2 + panjang3 + panjang4
+c = panjang1 + panjang2; d = c + panjang5""", "\n")
+
+print("Baris dan Indentasi")
+a = ['ayam', "bebek",'''kucing''']
+for i in a:
+    print(i),
+print("\n")
+
+print("Tanda Kutip di Python")
+kata = 'kata'
+kalimat = "kalimat"
+paragraf = """ini adalah paragraf. Paragraf
+terdiri dari beberapa baris."""
+print("\n")
+
+print("Komentar di Python")
+#ini adalah komentar
+print("Hello world") #Ini tdk akan keluar
+#inii jugaa
+#ini jugaaaa
