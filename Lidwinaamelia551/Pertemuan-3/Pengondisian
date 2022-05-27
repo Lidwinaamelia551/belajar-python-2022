@@ -1,0 +1,7 @@
+print("Pengondisian")
+nilai = 95
+if(nilai >= 76):
+    print("Lulus")
+else:
+    print("Tidak Lulus")
+print("\n")
