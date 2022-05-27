@@ -1,0 +1,27 @@
+print("""For ...
+for i in range (<start>,<end>): do something""") #Kalau yang diinginkan dari interval start sampe end.
+print("Contoh code input")
+print("""for i in range (3,10):
+    print(i)""")
+print("Output")
+for i in range (3,10):
+    print(i)
+print("\n")
+
+print("""For ...
+for i in range (<start>,<end>,<step>): do something""") #Kalau yang diinginkan dari interval start sampe end, terus ada kelipatan step.
+print("Contoh code input")
+print("""for i in range (2,20,4):
+    print(i)""")
+print("Output")
+for i in range (2,20,4):
+    print(i)
+print("\n")
+
+print("Contoh code input")
+print("""for i in range (20,2,-4):
+    print(i)""")
+print("Output")
+for i in range (20,2,-4):
+    print(i)
+print("\n")
