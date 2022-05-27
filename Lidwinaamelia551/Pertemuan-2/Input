@@ -1,0 +1,18 @@
+print("""Input; cara untuk memasukkan suatu nilai
+Contoh kode:
+print(input("masukkan nama : "))
+a = int(input("nilai a = "))
+print(a+3)
+
+Outputnya:""")
+print(input("masukkan nama : "))
+a = int(input("nilai a = "))
+print(a+3)
+print("\n")
+
+#Special char
+print("""\t #tab
+\n #baris baru
+lidwin\ramelia  #buat ilangin string sebelum \"\r\" sih keknya
+dah ah pusing wkwk
+""")
