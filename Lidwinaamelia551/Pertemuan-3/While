@@ -1,0 +1,20 @@
+print("While")
+print("while <condition>: do something")
+print("Contoh code input")
+print("""a = 2
+while a==2:
+print("halo semua")""")
+print("Output \n")
+#Pokoknya nanti keluarnya halo semua banyak"
+
+print("Contoh code input")
+print("""jumlah = 0
+x = 0
+while x != "":
+    x = input("masukkan angka = ")
+    if x != "":
+        x = int(x)
+        jumlah += x
+print(jumlah)
+Ntar outputnya masa masukkan angka mulu""")
+print("\n")
