@@ -1,0 +1,12 @@
+print("PERTEMUAN 2")
+print("""Output; cara untuk mengeluarkan suatu nilai, "\n"
+Contoh kode :
+print("Hello world")
+nama = "Lidwina Amelia"
+print(nama)
+print("Selamat datang, ",nama)
+Outputnya :""", "\n")
+print("Hello world")
+nama = "Lidwina Amelia"
+print(nama)
+print("Selamat datang, ",nama)
