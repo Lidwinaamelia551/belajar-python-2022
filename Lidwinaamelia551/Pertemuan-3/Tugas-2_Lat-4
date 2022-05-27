@@ -1,0 +1,20 @@
+print("""Tugas 2_Latihan 4
+Tulis program yang mambaca input dari user dan melaporkan
+warnanya. Jika input tersebut diluar spektrum yang terlihat,
+maka tampilkan pesan kesalahan""","\n")
+n = float(input("Panjang gelombang cahaya (nm) = "))
+if (620 <= n <= 750):
+    print("Spektrum warna yang terlihat adalah Red>")
+elif (590 <= n <= 620):
+    print("Spektrum warna yang terlihat adalah Orange.")
+elif (570 <= n <= 590):
+    print("Spektrum warna yang terlihat adalah Yellow.")
+elif (495 <= n <= 570):
+    print("Spektrum warna yang terlihat adalah Green.")
+elif (450 <= n <= 495):
+    print("Spektrum warna yang terlihat adalah Blue.")
+elif (380 <= n <= 450):
+    print("Spektrum warna yang terlihat adalah Violet.")
+else:
+    print("Spektrum warnanya tidak diketahui.")
+print("\n")
